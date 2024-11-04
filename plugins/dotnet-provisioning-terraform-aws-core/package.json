@@ -1,6 +1,6 @@
 {
   "name": "@amplication/plugin-dotnet-provisioning-terraform-aws-core",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Adds terraform code for provisioning Amazon Web Services core network infrastructure",
   "main": "dist/index.js",
   "nx": {},

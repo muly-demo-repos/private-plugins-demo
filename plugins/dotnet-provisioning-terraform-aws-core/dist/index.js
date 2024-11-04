@@ -1,7 +1,7 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ 250:
+/***/ 543:
 /***/ (function(module, exports, __webpack_require__) {
 
 /* module decorator */ module = __webpack_require__.nmd(module);
@@ -17210,7 +17210,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;/**
 
 /***/ }),
 
-/***/ 466:
+/***/ 921:
 /***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
@@ -17234,7 +17234,7 @@ exports.backendKey = "${{ BACKEND }}";
 
 /***/ }),
 
-/***/ 18:
+/***/ 613:
 /***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
@@ -17250,15 +17250,15 @@ var BackendTypes;
 
 /***/ }),
 
-/***/ 622:
+/***/ 185:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.getPluginSettings = void 0;
-const tslib_1 = __webpack_require__(608);
-const package_json_1 = __webpack_require__(330);
+const tslib_1 = __webpack_require__(635);
+const package_json_1 = __webpack_require__(949);
 const _amplicationrc_json_1 = tslib_1.__importDefault(__webpack_require__(944));
 const getPluginSettings = (pluginInstallations) => {
     const plugin = pluginInstallations.find((plugin) => plugin.npm === package_json_1.name);
@@ -17290,22 +17290,22 @@ module.exports = require("path");
 
 /***/ }),
 
-/***/ 844:
+/***/ 701:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.CsharpSupport = void 0;
-const tslib_1 = __webpack_require__(608);
-tslib_1.__exportStar(__webpack_require__(719), exports);
-tslib_1.__exportStar(__webpack_require__(586), exports);
-exports.CsharpSupport = tslib_1.__importStar(__webpack_require__(521));
+const tslib_1 = __webpack_require__(635);
+tslib_1.__exportStar(__webpack_require__(526), exports);
+tslib_1.__exportStar(__webpack_require__(289), exports);
+exports.CsharpSupport = tslib_1.__importStar(__webpack_require__(694));
 //# sourceMappingURL=index.js.map
 
 /***/ }),
 
-/***/ 377:
+/***/ 638:
 /***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
@@ -17322,14 +17322,14 @@ exports.Access = {
 
 /***/ }),
 
-/***/ 290:
+/***/ 409:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.Annotation = void 0;
-const AstNode_1 = __webpack_require__(98);
+const AstNode_1 = __webpack_require__(789);
 class Annotation extends AstNode_1.AstNode {
     reference;
     argument;
@@ -17357,16 +17357,16 @@ exports.Annotation = Annotation;
 
 /***/ }),
 
-/***/ 451:
+/***/ 474:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.Class = void 0;
-const Access_1 = __webpack_require__(377);
-const ClassReference_1 = __webpack_require__(818);
-const AstNode_1 = __webpack_require__(98);
+const Access_1 = __webpack_require__(638);
+const ClassReference_1 = __webpack_require__(665);
+const AstNode_1 = __webpack_require__(789);
 class Class extends AstNode_1.AstNode {
     name;
     namespace;
@@ -17594,14 +17594,14 @@ exports.Class = Class;
 
 /***/ }),
 
-/***/ 890:
+/***/ 713:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.ClassInstantiation = void 0;
-const AstNode_1 = __webpack_require__(98);
+const AstNode_1 = __webpack_require__(789);
 class ClassInstantiation extends AstNode_1.AstNode {
     classReference;
     arguments_;
@@ -17638,14 +17638,14 @@ function isNamedArgument(argument) {
 
 /***/ }),
 
-/***/ 818:
+/***/ 665:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.StringEnumClassReference = exports.OneOfClassReference = exports.ClassReference = void 0;
-const AstNode_1 = __webpack_require__(98);
+const AstNode_1 = __webpack_require__(789);
 class ClassReference extends AstNode_1.AstNode {
     name;
     namespace;
@@ -17673,14 +17673,14 @@ exports.StringEnumClassReference = new ClassReference({
 
 /***/ }),
 
-/***/ 473:
+/***/ 328:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.CodeBlock = void 0;
-const AstNode_1 = __webpack_require__(98);
+const AstNode_1 = __webpack_require__(789);
 class CodeBlock extends AstNode_1.AstNode {
     value;
     references;
@@ -17707,14 +17707,14 @@ exports.CodeBlock = CodeBlock;
 
 /***/ }),
 
-/***/ 349:
+/***/ 330:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.CoreClassReference = void 0;
-const AstNode_1 = __webpack_require__(98);
+const AstNode_1 = __webpack_require__(789);
 class CoreClassReference extends AstNode_1.AstNode {
     name;
     constructor({ name }) {
@@ -17730,14 +17730,14 @@ exports.CoreClassReference = CoreClassReference;
 
 /***/ }),
 
-/***/ 447:
+/***/ 140:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.Dictionary = void 0;
-const AstNode_1 = __webpack_require__(98);
+const AstNode_1 = __webpack_require__(789);
 class Dictionary extends AstNode_1.AstNode {
     keyType;
     valueType;
@@ -17772,17 +17772,17 @@ exports.Dictionary = Dictionary;
 
 /***/ }),
 
-/***/ 538:
+/***/ 225:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.Enum = void 0;
-const Annotation_1 = __webpack_require__(290);
-const ClassReference_1 = __webpack_require__(818);
-const AstNode_1 = __webpack_require__(98);
-const System_1 = __webpack_require__(320);
+const Annotation_1 = __webpack_require__(409);
+const ClassReference_1 = __webpack_require__(665);
+const AstNode_1 = __webpack_require__(789);
+const System_1 = __webpack_require__(369);
 class Enum extends AstNode_1.AstNode {
     name;
     namespace;
@@ -17845,16 +17845,16 @@ exports.Enum = Enum;
 
 /***/ }),
 
-/***/ 823:
+/***/ 642:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.Field = void 0;
-const Annotation_1 = __webpack_require__(290);
-const ClassReference_1 = __webpack_require__(818);
-const AstNode_1 = __webpack_require__(98);
+const Annotation_1 = __webpack_require__(409);
+const ClassReference_1 = __webpack_require__(665);
+const AstNode_1 = __webpack_require__(789);
 class Field extends AstNode_1.AstNode {
     name;
     access;
@@ -17952,14 +17952,14 @@ exports.Field = Field;
 
 /***/ }),
 
-/***/ 231:
+/***/ 766:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.GenericClassReference = void 0;
-const AstNode_1 = __webpack_require__(98);
+const AstNode_1 = __webpack_require__(789);
 class GenericClassReference extends AstNode_1.AstNode {
     reference;
     innerType;
@@ -17980,16 +17980,16 @@ exports.GenericClassReference = GenericClassReference;
 
 /***/ }),
 
-/***/ 884:
+/***/ 113:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.Interface = void 0;
-const ClassReference_1 = __webpack_require__(818);
-const AstNode_1 = __webpack_require__(98);
-const Method_1 = __webpack_require__(590);
+const ClassReference_1 = __webpack_require__(665);
+const AstNode_1 = __webpack_require__(789);
+const Method_1 = __webpack_require__(25);
 class Interface extends AstNode_1.AstNode {
     name;
     namespace;
@@ -18053,15 +18053,15 @@ exports.Interface = Interface;
 
 /***/ }),
 
-/***/ 590:
+/***/ 25:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.Method = exports.MethodClassType = exports.MethodType = void 0;
-const AstNode_1 = __webpack_require__(98);
-const MethodInvocation_1 = __webpack_require__(240);
+const AstNode_1 = __webpack_require__(789);
+const MethodInvocation_1 = __webpack_require__(651);
 var MethodType;
 (function (MethodType) {
     MethodType[MethodType["INSTANCE"] = 0] = "INSTANCE";
@@ -18209,14 +18209,14 @@ exports.Method = Method;
 
 /***/ }),
 
-/***/ 240:
+/***/ 651:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.MethodInvocation = void 0;
-const AstNode_1 = __webpack_require__(98);
+const AstNode_1 = __webpack_require__(789);
 class MethodInvocation extends AstNode_1.AstNode {
     arguments;
     method;
@@ -18253,14 +18253,14 @@ exports.MethodInvocation = MethodInvocation;
 
 /***/ }),
 
-/***/ 136:
+/***/ 593:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.Parameter = void 0;
-const AstNode_1 = __webpack_require__(98);
+const AstNode_1 = __webpack_require__(789);
 class Parameter extends AstNode_1.AstNode {
     name;
     docs;
@@ -18308,16 +18308,99 @@ exports.Parameter = Parameter;
 
 /***/ }),
 
-/***/ 731:
+/***/ 464:
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.ProgramClass = void 0;
+const AstNode_1 = __webpack_require__(789);
+class ProgramClass extends AstNode_1.AstNode {
+    references;
+    startFileBlocks;
+    builderServicesBlocks;
+    appBlocks;
+    catchBlocks;
+    finallyBlocks;
+    endFileBlocks;
+    constructor(args) {
+        super();
+        this.startFileBlocks = args.startFileBlocks ?? [];
+        this.builderServicesBlocks = args.builderServicesBlocks;
+        this.appBlocks = args.appBlocks;
+        this.catchBlocks = args.catchBlocks ?? [];
+        this.finallyBlocks = args.finallyBlocks ?? [];
+        this.endFileBlocks = args.endFileBlocks ?? [];
+        this.references = args.references;
+    }
+    addReference(reference) {
+        this.references.push(reference);
+    }
+    write(writer) {
+        this.references.forEach((reference) => writer.addReference(reference));
+        const hasTryCatch = this.catchBlocks.length > 0 || this.finallyBlocks.length > 0;
+        if (this.startFileBlocks.length > 0) {
+            this.startFileBlocks.forEach((block) => block.write(writer));
+            writer.writeLine();
+        }
+        if (hasTryCatch) {
+            writer.writeLine("try");
+            writer.writeLine("{");
+            writer.indent();
+        }
+        if (this.builderServicesBlocks.length > 0) {
+            this.builderServicesBlocks.forEach((block) => block.write(writer));
+            writer.writeLine();
+        }
+        if (this.appBlocks.length > 0) {
+            this.appBlocks.forEach((block) => block.write(writer));
+            writer.writeLine();
+            writer.writeLine("app.Run();");
+        }
+        if (hasTryCatch) {
+            writer.dedent();
+            writer.writeLine("}");
+            if (this.catchBlocks.length > 0) {
+                writer.writeLine("catch(Exception ex)");
+                writer.writeLine("{");
+                writer.indent();
+                this.catchBlocks.forEach((block) => block.write(writer));
+                writer.dedent();
+                writer.writeLine();
+                writer.writeLine("}");
+            }
+            if (this.finallyBlocks.length > 0) {
+                writer.writeLine("finally");
+                writer.writeLine("{");
+                writer.indent();
+                this.finallyBlocks.forEach((block) => block.write(writer));
+                writer.dedent();
+                writer.writeLine();
+                writer.writeLine("}");
+            }
+        }
+        if (this.endFileBlocks.length > 0) {
+            this.endFileBlocks.forEach((block) => block.write(writer));
+        }
+        writer.writeLine();
+    }
+}
+exports.ProgramClass = ProgramClass;
+//# sourceMappingURL=ProgramClass.js.map
+
+/***/ }),
+
+/***/ 252:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.Type = void 0;
-const assertNever_1 = __webpack_require__(82);
-const ClassReference_1 = __webpack_require__(818);
-const AstNode_1 = __webpack_require__(98);
+const assertNever_1 = __webpack_require__(943);
+const ClassReference_1 = __webpack_require__(665);
+const AstNode_1 = __webpack_require__(789);
 /* A C# parameter to a method */
 class Type extends AstNode_1.AstNode {
     internalType;
@@ -18513,14 +18596,14 @@ exports.Type = Type;
 
 /***/ }),
 
-/***/ 269:
+/***/ 226:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.TestFixture = void 0;
-const __1 = __webpack_require__(719);
+const __1 = __webpack_require__(526);
 const NUNIT_FRAMEWORK_NAMESPACE = "NUnit.Framework";
 exports.TestFixture = new __1.ClassReference({
     name: "TestFixture",
@@ -18530,14 +18613,14 @@ exports.TestFixture = new __1.ClassReference({
 
 /***/ }),
 
-/***/ 320:
+/***/ 369:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.ENUM_MEMBER = void 0;
-const __1 = __webpack_require__(719);
+const __1 = __webpack_require__(526);
 exports.ENUM_MEMBER = new __1.ClassReference({
     namespace: "System.Runtime.Serialization",
     name: "EnumMember",
@@ -18546,72 +18629,74 @@ exports.ENUM_MEMBER = new __1.ClassReference({
 
 /***/ }),
 
-/***/ 57:
+/***/ 198:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.system = exports.nunit = void 0;
-const tslib_1 = __webpack_require__(608);
-exports.nunit = tslib_1.__importStar(__webpack_require__(269));
-exports.system = tslib_1.__importStar(__webpack_require__(320));
+const tslib_1 = __webpack_require__(635);
+exports.nunit = tslib_1.__importStar(__webpack_require__(226));
+exports.system = tslib_1.__importStar(__webpack_require__(369));
 //# sourceMappingURL=index.js.map
 
 /***/ }),
 
-/***/ 719:
+/***/ 526:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.Dictionary = exports.CoreClassReference = exports.MethodInvocation = exports.ClassInstantiation = exports.Interface = exports.Type = exports.Parameter = exports.MethodType = exports.Method = exports.Field = exports.Enum = exports.dependencies = exports.CodeBlock = exports.GenericClassReference = exports.ClassReference = exports.Class = exports.Annotation = void 0;
-const tslib_1 = __webpack_require__(608);
-var Annotation_1 = __webpack_require__(290);
+exports.ProgramClass = exports.Dictionary = exports.CoreClassReference = exports.MethodInvocation = exports.ClassInstantiation = exports.Interface = exports.Type = exports.Parameter = exports.MethodType = exports.Method = exports.Field = exports.Enum = exports.dependencies = exports.CodeBlock = exports.GenericClassReference = exports.ClassReference = exports.Class = exports.Annotation = void 0;
+const tslib_1 = __webpack_require__(635);
+var Annotation_1 = __webpack_require__(409);
 Object.defineProperty(exports, "Annotation", ({ enumerable: true, get: function () { return Annotation_1.Annotation; } }));
-var Class_1 = __webpack_require__(451);
+var Class_1 = __webpack_require__(474);
 Object.defineProperty(exports, "Class", ({ enumerable: true, get: function () { return Class_1.Class; } }));
-var ClassReference_1 = __webpack_require__(818);
+var ClassReference_1 = __webpack_require__(665);
 Object.defineProperty(exports, "ClassReference", ({ enumerable: true, get: function () { return ClassReference_1.ClassReference; } }));
-var GenericClassReference_1 = __webpack_require__(231);
+var GenericClassReference_1 = __webpack_require__(766);
 Object.defineProperty(exports, "GenericClassReference", ({ enumerable: true, get: function () { return GenericClassReference_1.GenericClassReference; } }));
-var CodeBlock_1 = __webpack_require__(473);
+var CodeBlock_1 = __webpack_require__(328);
 Object.defineProperty(exports, "CodeBlock", ({ enumerable: true, get: function () { return CodeBlock_1.CodeBlock; } }));
-exports.dependencies = tslib_1.__importStar(__webpack_require__(57));
-var Enum_1 = __webpack_require__(538);
+exports.dependencies = tslib_1.__importStar(__webpack_require__(198));
+var Enum_1 = __webpack_require__(225);
 Object.defineProperty(exports, "Enum", ({ enumerable: true, get: function () { return Enum_1.Enum; } }));
-var Field_1 = __webpack_require__(823);
+var Field_1 = __webpack_require__(642);
 Object.defineProperty(exports, "Field", ({ enumerable: true, get: function () { return Field_1.Field; } }));
-var Method_1 = __webpack_require__(590);
+var Method_1 = __webpack_require__(25);
 Object.defineProperty(exports, "Method", ({ enumerable: true, get: function () { return Method_1.Method; } }));
 Object.defineProperty(exports, "MethodType", ({ enumerable: true, get: function () { return Method_1.MethodType; } }));
-var Parameter_1 = __webpack_require__(136);
+var Parameter_1 = __webpack_require__(593);
 Object.defineProperty(exports, "Parameter", ({ enumerable: true, get: function () { return Parameter_1.Parameter; } }));
-var Type_1 = __webpack_require__(731);
+var Type_1 = __webpack_require__(252);
 Object.defineProperty(exports, "Type", ({ enumerable: true, get: function () { return Type_1.Type; } }));
-var Interface_1 = __webpack_require__(884);
+var Interface_1 = __webpack_require__(113);
 Object.defineProperty(exports, "Interface", ({ enumerable: true, get: function () { return Interface_1.Interface; } }));
-var ClassInstantiation_1 = __webpack_require__(890);
+var ClassInstantiation_1 = __webpack_require__(713);
 Object.defineProperty(exports, "ClassInstantiation", ({ enumerable: true, get: function () { return ClassInstantiation_1.ClassInstantiation; } }));
-var MethodInvocation_1 = __webpack_require__(240);
+var MethodInvocation_1 = __webpack_require__(651);
 Object.defineProperty(exports, "MethodInvocation", ({ enumerable: true, get: function () { return MethodInvocation_1.MethodInvocation; } }));
-var CoreClassReference_1 = __webpack_require__(349);
+var CoreClassReference_1 = __webpack_require__(330);
 Object.defineProperty(exports, "CoreClassReference", ({ enumerable: true, get: function () { return CoreClassReference_1.CoreClassReference; } }));
-var Dictionary_1 = __webpack_require__(447);
+var Dictionary_1 = __webpack_require__(140);
 Object.defineProperty(exports, "Dictionary", ({ enumerable: true, get: function () { return Dictionary_1.Dictionary; } }));
+var ProgramClass_1 = __webpack_require__(464);
+Object.defineProperty(exports, "ProgramClass", ({ enumerable: true, get: function () { return ProgramClass_1.ProgramClass; } }));
 //# sourceMappingURL=index.js.map
 
 /***/ }),
 
-/***/ 98:
+/***/ 789:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.AstNode = void 0;
-const Writer_1 = __webpack_require__(947);
+const Writer_1 = __webpack_require__(30);
 class AstNode {
     /**
      * Writes the node to a string.
@@ -18627,7 +18712,7 @@ exports.AstNode = AstNode;
 
 /***/ }),
 
-/***/ 947:
+/***/ 30:
 /***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
@@ -18738,110 +18823,113 @@ exports.Writer = Writer;
 
 /***/ }),
 
-/***/ 586:
+/***/ 289:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.Writer = exports.AstNode = void 0;
-var AstNode_1 = __webpack_require__(98);
+var AstNode_1 = __webpack_require__(789);
 Object.defineProperty(exports, "AstNode", ({ enumerable: true, get: function () { return AstNode_1.AstNode; } }));
-var Writer_1 = __webpack_require__(947);
+var Writer_1 = __webpack_require__(30);
 Object.defineProperty(exports, "Writer", ({ enumerable: true, get: function () { return Writer_1.Writer; } }));
 //# sourceMappingURL=index.js.map
 
 /***/ }),
 
-/***/ 82:
+/***/ 943:
 /***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.assertNeverNoThrow = exports.assertNever = void 0;
+exports.assertNever = assertNever;
+exports.assertNeverNoThrow = assertNeverNoThrow;
 function assertNever(x) {
     throw new Error("Unexpected value: " + JSON.stringify(x));
 }
-exports.assertNever = assertNever;
 // eslint-disable-next-line @typescript-eslint/no-empty-function
 function assertNeverNoThrow(_) { }
-exports.assertNeverNoThrow = assertNeverNoThrow;
 //# sourceMappingURL=assertNever.js.map
 
 /***/ }),
 
-/***/ 521:
+/***/ 694:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.Types = exports.dictionary = exports.enum_ = exports.interface_ = exports.parameter = exports.method = exports.field = exports.codeblock = exports.coreClassReference = exports.invokeMethod = exports.instantiateClass = exports.genericClassReference = exports.classReference = exports.annotation = exports.class_ = void 0;
-const ast_1 = __webpack_require__(719);
-const GenericClassReference_1 = __webpack_require__(231);
+exports.Types = void 0;
+exports.class_ = class_;
+exports.annotation = annotation;
+exports.classReference = classReference;
+exports.genericClassReference = genericClassReference;
+exports.instantiateClass = instantiateClass;
+exports.invokeMethod = invokeMethod;
+exports.coreClassReference = coreClassReference;
+exports.codeblock = codeblock;
+exports.field = field;
+exports.method = method;
+exports.parameter = parameter;
+exports.interface_ = interface_;
+exports.enum_ = enum_;
+exports.dictionary = dictionary;
+exports.programClass = programClass;
+const ast_1 = __webpack_require__(526);
+const GenericClassReference_1 = __webpack_require__(766);
 function class_(args) {
     return new ast_1.Class(args);
 }
-exports.class_ = class_;
 function annotation(args) {
     return new ast_1.Annotation(args);
 }
-exports.annotation = annotation;
 function classReference(args) {
     return new ast_1.ClassReference(args);
 }
-exports.classReference = classReference;
 function genericClassReference(args) {
     return new GenericClassReference_1.GenericClassReference(args);
 }
-exports.genericClassReference = genericClassReference;
 function instantiateClass(args) {
     return new ast_1.ClassInstantiation(args);
 }
-exports.instantiateClass = instantiateClass;
 function invokeMethod(args) {
     return new ast_1.MethodInvocation(args);
 }
-exports.invokeMethod = invokeMethod;
 function coreClassReference(args) {
     return new ast_1.CoreClassReference(args);
 }
-exports.coreClassReference = coreClassReference;
 function codeblock(args) {
     return new ast_1.CodeBlock(args);
 }
-exports.codeblock = codeblock;
 function field(args) {
     return new ast_1.Field(args);
 }
-exports.field = field;
 function method(args) {
     return new ast_1.Method(args);
 }
-exports.method = method;
 function parameter(args) {
     return new ast_1.Parameter(args);
 }
-exports.parameter = parameter;
 function interface_(args) {
     return new ast_1.Interface(args);
 }
-exports.interface_ = interface_;
 function enum_(args) {
     return new ast_1.Enum(args);
 }
-exports.enum_ = enum_;
 function dictionary(args) {
     return new ast_1.Dictionary(args);
 }
-exports.dictionary = dictionary;
+function programClass(args) {
+    return new ast_1.ProgramClass(args);
+}
 exports.Types = ast_1.Type;
 //# sourceMappingURL=csharp-support.js.map
 
 /***/ }),
 
-/***/ 608:
+/***/ 635:
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -18872,6 +18960,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   __propKey: () => (/* binding */ __propKey),
 /* harmony export */   __read: () => (/* binding */ __read),
 /* harmony export */   __rest: () => (/* binding */ __rest),
+/* harmony export */   __rewriteRelativeImportExtension: () => (/* binding */ __rewriteRelativeImportExtension),
 /* harmony export */   __runInitializers: () => (/* binding */ __runInitializers),
 /* harmony export */   __setFunctionName: () => (/* binding */ __setFunctionName),
 /* harmony export */   __spread: () => (/* binding */ __spread),
@@ -18894,7 +18983,7 @@ LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
 OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
 PERFORMANCE OF THIS SOFTWARE.
 ***************************************************************************** */
-/* global Reflect, Promise, SuppressedError, Symbol */
+/* global Reflect, Promise, SuppressedError, Symbol, Iterator */
 
 var extendStatics = function(d, b) {
   extendStatics = Object.setPrototypeOf ||
@@ -19005,8 +19094,8 @@ function __awaiter(thisArg, _arguments, P, generator) {
 }
 
 function __generator(thisArg, body) {
-  var _ = { label: 0, sent: function() { if (t[0] & 1) throw t[1]; return t[1]; }, trys: [], ops: [] }, f, y, t, g;
-  return g = { next: verb(0), "throw": verb(1), "return": verb(2) }, typeof Symbol === "function" && (g[Symbol.iterator] = function() { return this; }), g;
+  var _ = { label: 0, sent: function() { if (t[0] & 1) throw t[1]; return t[1]; }, trys: [], ops: [] }, f, y, t, g = Object.create((typeof Iterator === "function" ? Iterator : Object).prototype);
+  return g.next = verb(0), g["throw"] = verb(1), g["return"] = verb(2), typeof Symbol === "function" && (g[Symbol.iterator] = function() { return this; }), g;
   function verb(n) { return function (v) { return step([n, v]); }; }
   function step(op) {
       if (f) throw new TypeError("Generator is already executing.");
@@ -19110,8 +19199,9 @@ function __await(v) {
 function __asyncGenerator(thisArg, _arguments, generator) {
   if (!Symbol.asyncIterator) throw new TypeError("Symbol.asyncIterator is not defined.");
   var g = generator.apply(thisArg, _arguments || []), i, q = [];
-  return i = {}, verb("next"), verb("throw"), verb("return"), i[Symbol.asyncIterator] = function () { return this; }, i;
-  function verb(n) { if (g[n]) i[n] = function (v) { return new Promise(function (a, b) { q.push([n, v, a, b]) > 1 || resume(n, v); }); }; }
+  return i = Object.create((typeof AsyncIterator === "function" ? AsyncIterator : Object).prototype), verb("next"), verb("throw"), verb("return", awaitReturn), i[Symbol.asyncIterator] = function () { return this; }, i;
+  function awaitReturn(f) { return function (v) { return Promise.resolve(v).then(f, reject); }; }
+  function verb(n, f) { if (g[n]) { i[n] = function (v) { return new Promise(function (a, b) { q.push([n, v, a, b]) > 1 || resume(n, v); }); }; if (f) i[n] = f(i[n]); } }
   function resume(n, v) { try { step(g[n](v)); } catch (e) { settle(q[0][3], e); } }
   function step(r) { r.value instanceof __await ? Promise.resolve(r.value.v).then(fulfill, reject) : settle(q[0][2], r); }
   function fulfill(value) { resume("next", value); }
@@ -19144,10 +19234,19 @@ var __setModuleDefault = Object.create ? (function(o, v) {
   o["default"] = v;
 };
 
+var ownKeys = function(o) {
+  ownKeys = Object.getOwnPropertyNames || function (o) {
+    var ar = [];
+    for (var k in o) if (Object.prototype.hasOwnProperty.call(o, k)) ar[ar.length] = k;
+    return ar;
+  };
+  return ownKeys(o);
+};
+
 function __importStar(mod) {
   if (mod && mod.__esModule) return mod;
   var result = {};
-  if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+  if (mod != null) for (var k = ownKeys(mod), i = 0; i < k.length; i++) if (k[i] !== "default") __createBinding(result, mod, k[i]);
   __setModuleDefault(result, mod);
   return result;
 }
@@ -19177,16 +19276,18 @@ function __classPrivateFieldIn(state, receiver) {
 function __addDisposableResource(env, value, async) {
   if (value !== null && value !== void 0) {
     if (typeof value !== "object" && typeof value !== "function") throw new TypeError("Object expected.");
-    var dispose;
+    var dispose, inner;
     if (async) {
-        if (!Symbol.asyncDispose) throw new TypeError("Symbol.asyncDispose is not defined.");
-        dispose = value[Symbol.asyncDispose];
+      if (!Symbol.asyncDispose) throw new TypeError("Symbol.asyncDispose is not defined.");
+      dispose = value[Symbol.asyncDispose];
     }
     if (dispose === void 0) {
-        if (!Symbol.dispose) throw new TypeError("Symbol.dispose is not defined.");
-        dispose = value[Symbol.dispose];
+      if (!Symbol.dispose) throw new TypeError("Symbol.dispose is not defined.");
+      dispose = value[Symbol.dispose];
+      if (async) inner = dispose;
     }
     if (typeof dispose !== "function") throw new TypeError("Object not disposable.");
+    if (inner) dispose = function() { try { inner.call(this); } catch (e) { return Promise.reject(e); } };
     env.stack.push({ value: value, dispose: dispose, async: async });
   }
   else if (async) {
@@ -19205,20 +19306,34 @@ function __disposeResources(env) {
     env.error = env.hasError ? new _SuppressedError(e, env.error, "An error was suppressed during disposal.") : e;
     env.hasError = true;
   }
+  var r, s = 0;
   function next() {
-    while (env.stack.length) {
-      var rec = env.stack.pop();
+    while (r = env.stack.pop()) {
       try {
-        var result = rec.dispose && rec.dispose.call(rec.value);
-        if (rec.async) return Promise.resolve(result).then(next, function(e) { fail(e); return next(); });
+        if (!r.async && s === 1) return s = 0, env.stack.push(r), Promise.resolve().then(next);
+        if (r.dispose) {
+          var result = r.dispose.call(r.value);
+          if (r.async) return s |= 2, Promise.resolve(result).then(next, function(e) { fail(e); return next(); });
+        }
+        else s |= 1;
       }
       catch (e) {
-          fail(e);
+        fail(e);
       }
     }
+    if (s === 1) return env.hasError ? Promise.reject(env.error) : Promise.resolve();
     if (env.hasError) throw env.error;
   }
   return next();
+}
+
+function __rewriteRelativeImportExtension(path, preserveJsx) {
+  if (typeof path === "string" && /^\.\.?\//.test(path)) {
+      return path.replace(/\.(tsx)$|((?:\.d)?)((?:\.[^./]+?)?)\.([cm]?)ts$/i, function (m, tsx, d, ext, cm) {
+          return tsx ? preserveJsx ? ".jsx" : ".js" : d && (!ext || !cm) ? m : (d + ext + "." + cm.toLowerCase() + "js");
+      });
+  }
+  return path;
 }
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
@@ -19227,6 +19342,10 @@ function __disposeResources(env) {
   __rest,
   __decorate,
   __param,
+  __esDecorate,
+  __runInitializers,
+  __propKey,
+  __setFunctionName,
   __metadata,
   __awaiter,
   __generator,
@@ -19249,6 +19368,7 @@ function __disposeResources(env) {
   __classPrivateFieldIn,
   __addDisposableResource,
   __disposeResources,
+  __rewriteRelativeImportExtension,
 });
 
 
@@ -19262,11 +19382,11 @@ module.exports = /*#__PURE__*/JSON.parse('{"settings":{"root_level":false,"direc
 
 /***/ }),
 
-/***/ 330:
+/***/ 949:
 /***/ ((module) => {
 
 "use strict";
-module.exports = /*#__PURE__*/JSON.parse('{"name":"@amplication/plugin-dotnet-provisioning-terraform-aws-core","version":"0.0.1","description":"Adds terraform code for provisioning Amazon Web Services core network infrastructure","main":"dist/index.js","nx":{},"scripts":{"prepublishOnly":"npm run build","dev":"webpack --watch","build":"webpack","prebuild":"rimraf dist"},"author":"Haim Bell","license":"Apache-2.0","devDependencies":{"@amplication/code-gen-types":"2.0.34","@amplication/code-gen-utils":"^0.0.9","lodash":"^4.17.21","@babel/parser":"^7.23.0","@babel/types":"^7.23.0","@typescript-eslint/eslint-plugin":"^6.9.1","@typescript-eslint/parser":"^6.9.1","copy-webpack-plugin":"^12.0.2","eslint":"^8.52.0","jest-mock-extended":"^3.0.5","prettier":"^2.6.2","rimraf":"^5.0.5","ts-loader":"^9.5.0","typescript":"^5.2.2","webpack":"^5.89.0","webpack-cli":"^5.1.4","@types/lodash":"^4.14.200"}}');
+module.exports = /*#__PURE__*/JSON.parse('{"name":"@amplication/plugin-dotnet-provisioning-terraform-aws-core","version":"1.0.0","description":"Adds terraform code for provisioning Amazon Web Services core network infrastructure","main":"dist/index.js","nx":{},"scripts":{"prepublishOnly":"npm run build","dev":"webpack --watch","build":"webpack","prebuild":"rimraf dist"},"author":"Haim Bell","license":"Apache-2.0","devDependencies":{"@amplication/code-gen-types":"2.0.34","@amplication/code-gen-utils":"^0.0.9","lodash":"^4.17.21","@babel/parser":"^7.23.0","@babel/types":"^7.23.0","@typescript-eslint/eslint-plugin":"^6.9.1","@typescript-eslint/parser":"^6.9.1","copy-webpack-plugin":"^12.0.2","eslint":"^8.52.0","jest-mock-extended":"^3.0.5","prettier":"^2.6.2","rimraf":"^5.0.5","ts-loader":"^9.5.0","typescript":"^5.2.2","webpack":"^5.89.0","webpack-cli":"^5.1.4","@types/lodash":"^4.14.200"}}');
 
 /***/ })
 
@@ -19339,19 +19459,19 @@ module.exports = /*#__PURE__*/JSON.parse('{"name":"@amplication/plugin-dotnet-pr
 /******/ 	
 /************************************************************************/
 var __webpack_exports__ = {};
-// This entry need to be wrapped in an IIFE because it need to be in strict mode.
+// This entry needs to be wrapped in an IIFE because it needs to be in strict mode.
 (() => {
 "use strict";
 var exports = __webpack_exports__;
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-const csharp_ast_1 = __webpack_require__(844);
-const constants_1 = __webpack_require__(466);
+const csharp_ast_1 = __webpack_require__(701);
+const constants_1 = __webpack_require__(921);
 const node_path_1 = __webpack_require__(760);
-const utils_1 = __webpack_require__(622);
-const types_1 = __webpack_require__(18);
+const utils_1 = __webpack_require__(185);
+const types_1 = __webpack_require__(613);
 const path_1 = __webpack_require__(928);
-const lodash_1 = __webpack_require__(250);
+const lodash_1 = __webpack_require__(543);
 class TerraformAwsCorePlugin {
     register() {
         return {
